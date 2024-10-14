@@ -12,7 +12,7 @@ this will enable all the experimental feature; there's probably a way to cherry-
 
 ### Client configuration
 - create the private Client [image1](docs/img/001-create-client-01.png) [image2](docs/img/001-create-client-02.png) [image3](docs/img/001-create-client-03.png)
-- write down client credential [image](docs/img/001-create-client-02.png002-client-credentials.png)
+- write down client credential [image](docs/img/002-client-credentials.png)
 - enable client permission [image](docs/img/003-client-permissions.png)
 - create a new permission for token-exchange [image](docs/img/004-Permission%20Details.png)
 - go to client "Realm-management" -> Authorization -> Policies [image](docs/img/005-realm-policy.png)

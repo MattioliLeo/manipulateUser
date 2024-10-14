@@ -1,4 +1,4 @@
-package com.example.keycloak.manipulateUser;
+package com.github.mattiolileo.keycloak;
 
 import java.util.List;
 

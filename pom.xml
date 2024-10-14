@@ -8,10 +8,10 @@
 		<version>3.3.4</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.example.keycloak</groupId>
-	<artifactId>manipulateUser</artifactId>
+	<groupId>com.github.mattiolileo</groupId>
+	<artifactId>keycloak-manipulate-user</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>manipulateUser</name>
+	<name>Keycloak Token-Exchange Test</name>
 	<description>Test for manipulating users</description>
 	<url/>
 	<licenses>
@@ -20,12 +20,6 @@
 	<developers>
 		<developer/>
 	</developers>
-	<scm>
-		<connection/>
-		<developerConnection/>
-		<tag/>
-		<url/>
-	</scm>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
@@ -34,16 +28,10 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter</artifactId>
 		</dependency>
-
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-test</artifactId>
-			<scope>test</scope>
-		</dependency>
 		<dependency>
 			<groupId>org.keycloak</groupId>
 			<artifactId>keycloak-admin-client</artifactId>
-			<version>16.1.1</version> <!-- O la versione di Keycloak che stai usando -->
+			<version>16.1.1</version>
 		</dependency>
 		<dependency>
 			<groupId>io.quarkus</groupId>
@@ -53,12 +41,12 @@
 		<dependency>
 			<groupId>org.glassfish.jersey.core</groupId>
 			<artifactId>jersey-client</artifactId>
-			<version>3.1.8</version> <!-- o versione più recente -->
+			<version>3.1.8</version>
 		</dependency>
 		<dependency>
 			<groupId>org.glassfish.jersey.media</groupId>
 			<artifactId>jersey-media-json-jackson</artifactId>
-			<version>3.1.8</version> <!-- o versione più recente -->
+			<version>3.1.8</version> 
 		</dependency>
 	</dependencies>
 

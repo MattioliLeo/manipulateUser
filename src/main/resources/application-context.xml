@@ -4,8 +4,8 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
 	   					   http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="appConfig" class="com.example.keycloak.manipulateUser.config.AppConfig" />
+    <bean id="appConfig" class="com.github.mattiolileo.keycloak.config.AppConfig" />
 
     <!-- Definisci il bean per KeycloakImpersonationService -->
-    <bean id="keycloakImpersonationService" class="com.example.keycloak.manipulateUser.KeycloakImpersonationService" />
+    <bean id="keycloakImpersonationService" class="com.github.mattiolileo.keycloak.KeycloakImpersonationService" />
 </beans>

@@ -1,4 +1,4 @@
-package com.example.keycloak.manipulateUser.config;
+package com.github.mattiolileo.keycloak.config;
 
 import javax.annotation.PostConstruct;
 
